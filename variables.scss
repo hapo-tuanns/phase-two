@@ -1,0 +1,39 @@
+$color-start-now: #8bc34a;
+$cl-w :#ffffff;
+@mixin btn() {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid $color-start-now;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    text-transform: uppercase;
+    letter-spacing: 0.03px;
+    background-color: $color-start-now;
+    background: $color-start-now linear-gradient(to right, #429321, #b4ec51);
+    color: #ffffff;
+}
+
+@mixin hover() {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+@mixin header-top() {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin bd() {
+    border: 2px solid $color-start-now;
+}
